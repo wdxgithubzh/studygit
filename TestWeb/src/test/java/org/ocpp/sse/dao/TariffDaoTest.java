@@ -58,7 +58,7 @@ public class TariffDaoTest {
     @Test
     public void testFindBychargeStationId() throws Exception {
         List<Tariff> talist = tariffDao.get("2");
-        // System.out.println(tariff.toString());
+
         logger.debug(talist.toString());
     }
 

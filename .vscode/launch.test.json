@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "TestWeb",
+                "projectName": "TestWeb",
+                "workingDirectory": "d:\\GitPro\\studygit\\TestWeb",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "TestWeb",
+                "projectName": "TestWeb",
+                "workingDirectory": "d:\\GitPro\\studygit\\TestWeb",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

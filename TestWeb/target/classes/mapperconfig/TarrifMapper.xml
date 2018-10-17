@@ -6,7 +6,7 @@
 
   <!-- 根据id寻找用户 -->
   <select id="get" parameterType="java.lang.String" resultMap="tariffMap">
-		  SELECT * FROM fa_time_of_use_price WHERE charging_station_id = #{charging_station_id}
+		  SELECT * FROM fa_time_of_use_price WHERE charging_station_id = 1
   </select>
 
 	<resultMap type="org.ocpp.sse.entity.Tariff" id="tariffMap">

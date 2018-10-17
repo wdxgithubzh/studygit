@@ -24,7 +24,7 @@ public class TariffDaoTest {
 
     @Autowired
     public TariffDao tariffDao;
-
+    
     private static final Logger logger = Logger.getLogger(TariffDaoTest.class);
 
 	static {
@@ -57,7 +57,7 @@ public class TariffDaoTest {
      */
     @Test
     public void testFindById() throws Exception {
-        List<Tariff> talist = tariffDao.get("16");
+        List<Tariff> talist = tariffDao.get("chargeStationId");
         // System.out.println(tariff.toString());
         logger.debug(talist.toString());
     }

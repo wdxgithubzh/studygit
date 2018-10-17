@@ -13,17 +13,9 @@
     </properties>
     <dependencies>
         <!-- 依赖于common类库 -->
-        <dependency>
-            <groupId>eu.chargetime.ocpp</groupId>
-            <artifactId>common</artifactId>
-            <version>0.5-SNAPSHOT</version>
-        </dependency>
+        
         <!-- 依赖于ocpp2.0类库 -->
-        <dependency>
-            <groupId>eu.chargetime.ocpp</groupId>
-            <artifactId>v2_0</artifactId>
-            <version>0.5-SNAPSHOT</version>
-        </dependency>
+        
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

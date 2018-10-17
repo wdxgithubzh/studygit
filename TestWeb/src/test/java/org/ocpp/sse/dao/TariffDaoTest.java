@@ -56,8 +56,8 @@ public class TariffDaoTest {
      * 测试类的主要方法,在这里写所有的测试业务逻辑
      */
     @Test
-    public void testFindById() throws Exception {
-        List<Tariff> talist = tariffDao.get("chargeStationId");
+    public void testFindBychargeStationId() throws Exception {
+        List<Tariff> talist = tariffDao.get("2");
         // System.out.println(tariff.toString());
         logger.debug(talist.toString());
     }
